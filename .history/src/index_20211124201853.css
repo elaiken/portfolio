@@ -1,0 +1,131 @@
+:root {
+  --background-image:linear-gradient (120deg,hsl(169, 100%, 35%),rgba(1, 84, 69, 0.67));
+  --background-overlay:rgba(0,0,0,0.4)
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a { 
+  font-family: inherit;
+  text-decoration: none;
+  color:#fff;
+   
+  
+}
+
+img {
+  max-width: 100%;
+}
+body{
+  font-family: "Manrope", sans-serif;
+  overflow: hidden;
+}
+
+/* Menu button */
+
+.menu-btn {
+  position: absolute;
+  right: 80px;
+  margin-top: 50px;
+  z-index: 9999999;
+}
+
+ .menu-btn button {
+  background-color: transparent;
+  font-size: 36px;
+  color: #fff;
+  border:none;
+  cursor:pointer;
+
+}
+
+/* Header */
+
+.header {
+  position: absolute;
+  right: 0;
+  height: 0;
+  overflow: hidden;
+  width: 200px;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.header.open {
+  height: 100vh;
+  background-color:var(--background-overlay);
+
+
+}
+
+.header nav ul {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.header nav ul li {
+  margin:20px 0;
+}
+
+
+
+
+/* HomePAGE */
+.home {
+  background: url(./pexels-andre-moura-4021521.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+}
+
+.home .overlay {
+background-color:var(--background-image);
+display: flex;
+flex-direction: column ;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
+color: white ;
+}
+
+.home .overlay h1 {
+  text-transform: uppercase ;
+  font-size: 96px;
+}
+.home .overlay p {
+  font-size: 36px;
+}
+
+.home .overlay ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px ;
+}
+
+.home .overlay ul li {
+  margin: 0 20px;
+}
+
+.home .overlay ul li a {
+  font-size: 46px;
+}
+
+@media (max-width: 992px) {
+  .homepage .overlay h1 {
+    font-size: 32px;
+  }
+}

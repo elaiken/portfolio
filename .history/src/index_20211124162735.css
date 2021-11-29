@@ -1,0 +1,36 @@
+:root {
+  --background-image:linear-gradient (120deg,#00B594,rgba(1, 84, 69, 0.67));
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+   
+  
+}
+
+img {
+  max-width: 100%;
+}
+body{
+  font-family: "Manrope", sans-serif;
+}
+
+.home {
+  background: url(./72c0b2_4704c5328f4343ac8f9fe424501f953d_mv2.png);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+}

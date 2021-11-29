@@ -1,0 +1,36 @@
+:root {
+  --background-image:linear-gradient (120deg,#00B594,rgba(1, 84, 69, 0.67));
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+   
+  
+}
+
+img {
+  max-width: 100%;
+}
+body{
+  font-family: "Manrope", sans-serif;
+}
+
+.home {
+  background: url(./pexels-tara-winstead-8386437.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+  background-position:center;
+  height: 100vh;
+}
