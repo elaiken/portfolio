@@ -17,7 +17,7 @@ ul {
 a { 
   font-family: inherit;
   text-decoration: none;
-  color:aquamarine;
+  color:springgreen;
 
   
    
@@ -100,7 +100,7 @@ flex-direction: column ;
 align-items: center;
 justify-content: center;
 min-height: 100vh;
-color:aquamarine ;
+color: white ;
 text-align: center;
 }
 
@@ -109,7 +109,7 @@ text-align: center;
   font-size: 96px;
 }
 .home .overlay p {
-  color: aquamarine;
+  color: springgreen;
   font-size: 36px;
 }
 

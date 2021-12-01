@@ -17,7 +17,7 @@ ul {
 a { 
   font-family: inherit;
   text-decoration: none;
-  color:aquamarine;
+  color:springgreen;
 
   
    
@@ -44,7 +44,7 @@ body{
  .menu-btn button {
   background-color: transparent;
   font-size: 36px;
-  color: aquamarine;
+  color: springgreen;
   border:none;
   cursor:pointer;
 
@@ -100,7 +100,7 @@ flex-direction: column ;
 align-items: center;
 justify-content: center;
 min-height: 100vh;
-color:aquamarine ;
+color: white ;
 text-align: center;
 }
 
@@ -109,7 +109,7 @@ text-align: center;
   font-size: 96px;
 }
 .home .overlay p {
-  color: aquamarine;
+  color: springgreen;
   font-size: 36px;
 }
 
@@ -133,7 +133,7 @@ text-align: center;
 /*Projects */
 .projects {
   
-  background-image: url(./pexels-rostislav-uzunov-5011647.jpg);
+  background-image: url(./pexels-andre-moura-4021521.jpg);
   background-repeat:no-repeat ;
   background-size: cover;
   background-position:center;
@@ -143,7 +143,7 @@ text-align: center;
 
 .projects h1 {
   padding: 50px 80px;
-  color:aquamarine;
+  color:springgreen;
 }
 
 .projects .cards {
@@ -152,7 +152,7 @@ text-align: center;
   max-width:1100px;
   margin:auto;
   gap:20px;
- color:white;
+ color:mediumvioletred;
  padding-bottom:20px ;
 }
 
@@ -263,38 +263,3 @@ color: #fff;
   opacity: 0;
   transition: opacity ease-in-out 0.4s;
 }
-
-/* About Me */ 
-.about-me {
-background-image: url(./pexels-rostislav-uzunov-5011647.jpg);
-background-repeat:no-repeat ;
-background-size: cover;
-background-position:center;
-height: 130vh;
-}
-
-.about-me h1 {
-  padding: 50px 30px;
-  color: aquamarine;
-}
-
-.about-me p {
-  padding: 50px 30px;
-  color: aquamarine;
-  letter-spacing: 5px;
-}
-
-.about-me .avatar {
-  background-image: url(./avatar1.png);
-  background-size: cover;
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
-
-  
-
-  
-}
-
-
-
